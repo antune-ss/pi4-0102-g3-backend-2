@@ -1,0 +1,12 @@
+# Arquivos temporários de compilação e binários do Arduino/ESP32
+build/
+core/
+*.bin
+*.elf
+*.hex
+*.map
+
+# Configurações de editores
+.vscode/
+.idea/
+.DS_Store
