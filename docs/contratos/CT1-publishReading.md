@@ -15,7 +15,7 @@
 | co2 | inteiro | sim | 850 |
 | temperature | decimal | sim | 24.5 |
 | humidity | decimal | sim | 45.2 |
-| measuredAt | data e hora | não | 2026-10-13T19:20:00 |
+| measuredAt | data e hora | sim | 2026-10-13T19:20:00 |
 
 ## Saída
 Não tem.
