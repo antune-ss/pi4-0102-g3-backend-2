@@ -1,6 +1,6 @@
-# Backend-2: O Arduino
+# IoT / Firmware - ESP32
 
-Neste repositório, nós vamos fazer o backend puramente em Java, ao estilo cliente/servidor, se comunicar com o nosso arduino, que trará as medidas sobre a qualidade do ar para serem tratadas e adicionadas ao banco
+Neste repositório, está o código do sistema embarcado (ESP32) responsável por coletar as medidas de qualidade do ar (temperatura, umidade e CO2) e enviá-las via MQTT para o backend Java do projeto.
 
 ## Resumido
-A ideia é que o nosso servidor se comunique com o sistema embarcado, que fará leituras do ar do meio ambiente.
+A ideia é que o ESP32 faça a leitura dos sensores do meio ambiente e publique os dados em um broker MQTT, seguindo os contratos estabelecidos para integração com o servidor.
